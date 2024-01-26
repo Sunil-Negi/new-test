@@ -1,0 +1,61 @@
+
+<div class="card">
+  <div class="card-body">
+    <div class="row g-3">
+      <h4>Add New Skills</h4>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" placeholder="Enter skills to search" id="inputCity">
+      </div>
+      <div class="col-sm-2">
+        <button class="btn btn-outline-secondary" type="button" class="form-control" (click)="searchTitle()">Search
+          Skills</button>
+      </div>
+      <div class="col-sm-1">
+        <button class="btn btn-outline-secondary" type="button" class="form-control"
+          (click)="searchTitle()">Reset</button>
+      </div>
+    </div>
+    <div class="card" style="margin-top: 30px;">
+      <div class="card-body">
+        <div style="margin-top: 10px;" class="row mb-3">
+          <label for="colFormLabelSm" style="font-weight:500;"
+            class="col-sm-2 col-form-label font-weight-bold">Employee</label>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="colFormLabelSm" placeholder="Employee Name">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="colFormLabel" style="font-weight:500;" class="col-sm-2 col-form-label">Practice</label>
+          <div class="col-sm-5">
+            <select class="form-select" aria-label="Default select example" id="colFormLabel"
+              placeholder="Select Practice">
+              <option selected>Select practice</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <label for="colFormLabelLg" style="font-weight:500;" class="col-sm-2 col-form-label">Category</label>
+          <div class="col-sm-5">
+            <select class="form-select" aria-label="Default select example" id="colFormLabelLg"
+              placeholder="Select Category">
+              <option selected>Select category</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+            <!-- <input type="email" class="form-control" id="colFormLabelLg" placeholder="Select Category"> -->
+          </div>
+        </div>
+        <div class="row">
+          <label for="colFormLabelLg" style="font-weight:500;" class="col-sm-2 col-form-label">Tech Stack</label>
+          <div class="col-sm-5">
+            <input type="email" class="form-control" id="colFormLabelLg" placeholder="Tech Stack">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
